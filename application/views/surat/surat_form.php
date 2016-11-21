@@ -21,7 +21,6 @@
 
     </head>
     <body>
-        <?php $this->load->view('/menu');?>
 
         <?php 
         $today=date("d/m/Y");
@@ -105,27 +104,7 @@
             <label for="int">Jenis <?php echo form_error('Jenis') ?></label>
             <input type="text" class="form-control" name="Jenis" id="Jenis" placeholder="Jenis" value="<?php echo $Jenis; ?>" />
         </div>
-	    <!--<div class="form-group">
-            <label for="int">Awam <?php echo form_error('awam') ?></label>
-            <input type="text" class="form-control" name="awam" id="awam" placeholder="Awam" value="<?php echo $awam; ?>" />
-        </div>
-	    <div class="form-group">
-            <label for="int">Agensi <?php echo form_error('agensi') ?></label>
-            <input type="text" class="form-control" name="agensi" id="agensi" placeholder="Agensi" value="<?php echo $agensi; ?>" />
-        </div>
-	    <div class="form-group">
-            <label for="varchar">Bahagian <?php echo form_error('bahagian') ?></label>
-            <input type="text" class="form-control" name="bahagian" id="bahagian" placeholder="Bahagian" value="<?php echo $bahagian; ?>" />
-        </div>
-	    <div class="form-group">
-            <label for="int">Individu <?php echo form_error('individu') ?></label>
-            <input type="text" class="form-control" name="individu" id="individu" placeholder="Individu" value="<?php echo $individu; ?>" />
-        </div>
-	    <div class="form-group">
-            <label for="varchar">Jawatan <?php echo form_error('jawatan') ?></label>
-            <input type="text" class="form-control" name="jawatan" id="jawatan" placeholder="Jawatan" value="<?php echo $jawatan; ?>" />
-        </div>
-     -->
+	   
 	    <div class="form-group">
             <label for="varchar">Kategori <?php echo form_error('kategori') ?></label>
             <input type="text" class="form-control" name="kategori" id="kategori" placeholder="Kategori" value="<?php echo $kategori; ?>" />
@@ -138,12 +117,6 @@
             <input type="text" class="form-control" name="Imbas" id="Imbas" placeholder="Imbas" value="<?php echo $Imbas; ?>" />
         </div>
 	
-     <!--
-        <div class="form-group">
-            <label for="int">Pendaftar <?php echo form_error('pendaftar') ?></label>
-            <input type="text" class="form-control" name="pendaftar" id="pendaftar" placeholder="Pendaftar" value="<?php echo $pendaftar; ?>" />
-        </div>
-     -->
 	    
 	    
 	    <input type="hidden" name="sid" value="<?php echo $sid; ?>" /> 

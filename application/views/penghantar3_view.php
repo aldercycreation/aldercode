@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Modal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
     $("#hide").click(function(){
@@ -52,16 +52,16 @@ $(document).ready(function(){
             <div id ="senaraia">
             <p>Dalaman list</p>
             
-                        <?php $this->load->view('penghantar_view');?>
 
             
           
             
             
             </div>
-<div id ="senaraib">            
+<div id ="senaraib">      
+<p>Agensi/Awam</p>
 
-            <?php $this->load->view('penghantar2_view');?>
+
 
     
     

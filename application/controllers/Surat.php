@@ -83,6 +83,8 @@ class Surat extends CI_Controller
 	    'TindakanTotal' => set_value('TindakanTotal'),
 	);
         $this->load->view('surat/surat_form', $data);
+                 $this->load->view('menu');
+
 
         
     }

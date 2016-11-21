@@ -80,6 +80,7 @@ class Surat_model extends CI_Model
     function insert($data)
     {
         $this->db->insert($this->table, $data);
+        
     }
 
     // update data

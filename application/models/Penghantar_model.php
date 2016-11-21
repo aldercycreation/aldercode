@@ -21,4 +21,19 @@ class Penghantar_model extends CI_Model {
         }
         return false;
    }
+   
+   //function untuk dapatkan senarai pengguna
+   public function findAll(){
+       return $this->db->get('pengguna')->result();
+   }
+   
+   public function delete($nama){
+       $this->db->where('nama',$nama);
+       $this->db->delete('pengguna');
+       
+   }
+   
+   
+   
+   
 }
